@@ -1,6 +1,6 @@
 <img src=".assets/intro-bar.png">
 
-# Summary Workshop Part 1/2 :bookmark_tabs:
+# Summary Workshop Part 2/2 :bookmark_tabs:
 - [Introduction](#introduction)
   - [What are we going to learn](#what-are-we-going-to-learn)
   - [What is ReactJS](#what-is-reactjs)
