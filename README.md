@@ -19,7 +19,11 @@
 
 ### What are we going to learn
 
-*description*
+**All the tips to create your first React app**
+- Creation of different pages and components with React and utilsation of styled components.
+- How to use navigation links and print images
+- Fetch data from an API with [Axios](https://axios-http.com/docs/intro) and learn how to display it with commonly used functions such as map, reduce, filter...
+- How to use the famous React Hooks (useEffect & useState).
 
 ### What is ReactJs
 

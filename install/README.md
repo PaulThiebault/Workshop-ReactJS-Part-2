@@ -39,6 +39,16 @@ $ create-react-app --version
 5.0.1  [Output]
 ```
 
+You can now install [React-router-dom](https://v5.reactrouter.com/web/guides/quick-start) for teh workshop:
+```shell
+npm install react-router-dom@6
+```
+
+You can now install [Axios](https://www.digitalocean.com/community/tutorials/react-axios-react-fr) for teh workshop:
+```shell
+npm install axios
+```
+
 ## Step 3: Create & Launch Your First React Application
 
 Creating a React application is quite simple. We are going to create a react app called workshop-reactjs-app as follows:
@@ -60,9 +70,11 @@ Then run the command:
 $ npm start
 ```
 
-If it says **Happy hacking!**,Fire up your browser and browse your server’s IP address:
+Fire up your browser and browse your server’s IP address:
 
 `http://localhost:3000/`
+
+**If an error occured on your web browser, come to see us : )**
 
 ## Installation is done! :relaxed:
 
