@@ -176,7 +176,7 @@ Using the `useEffect` Hook and `axios`, do a GET request from this API link `htt
 
 :warning: *Maybe the keyword data can be usefull*
 
-:hint: **[Hint](https://axios-http.com/docs/intro)**
+:bulb: **[Hint](https://axios-http.com/docs/intro)**
 
 *It should look like this (screen of the console):*
 
@@ -184,22 +184,65 @@ Using the `useEffect` Hook and `axios`, do a GET request from this API link `htt
 
 **Now you are going to discover another Hook: `useState`**
 
-In the `Coutries.js` file, add this line:
+In the `Countries.js` file, add this line:
 ```javascript
 import { useState } from 'react';
 ```
 
-Still in the `Coutries.js` with the use of `useState`, `useEffect` and `axios`, store the data that you previously printed in your web browser console into a const variable.
+Still in the `Coutries.js` with the use of `useState`, `useEffect` and `axios`, store the data that you previously printed in your web browser console into a const variable named `data`.
 
-Again, everytime your refresh your the internet page, the fetched data must be stored in your const variable.
+Again, everytime your refresh your the internet page, the fetched data must be stored in your const variable `data`.
 
-:grey_question: *You may ask: How can I modify a const variable? This is where [useState Hook](https://fr.reactjs.org/docs/hooks-state.html) goes into action lol*
+:question: *You may ask: How can I modify a const variable? This is where [useState Hook](https://fr.reactjs.org/docs/hooks-state.html) goes into action : )*
 
 ## Task 9
 
+**Now you are going to explore a very useful tool: [map functions](https://en.reactjs.org/docs/lists-and-keys.html)**
+
+*Your `data` variable is now containing an array of countries and their information.*
+
+- In the `Countries.js` file, display all the names of the countries by looping on this array using the `map` function
+
+:warning: *Pay attention to your data's architecture in order to access the countries name*
+
+*It should look like this:*
+
 ## Task 10
 
+**As you may have noticed, in React, components are functions so they also can handle parameters. They are called [props](https://en.reactjs.org/docs/components-and-props.html)**
+
+Now, still looping on your data's array with the `map` function, print the countries information in a `Card` component that you will create by following the instructions underneath. You will have to pass the countries information in the card `props`
+
+In the `components` folder:
+
+- Create a file named `Card.js` and create the component `Card`
+
+
+```javascript
+function Card(/*Code*/) {
+    return (
+      <li className="card">
+        <img
+        src={/*Code*/}
+        alt={/*Code*/}
+        />
+      <div className="infos">
+        <h2>{/*Code*/}</h2>
+        <h4>{/*Code*/}</h4>
+        <p>{/*Code*/}</p>
+      </div>
+      </li>
+    );
+}
+```
+
+*It should look like this:*
+
 ## Task 11 (Bonus)
+
+**You can choose the number of countries that will be printed**
+
+:bulb: **Hint: `slice`**
 
 ---
 
