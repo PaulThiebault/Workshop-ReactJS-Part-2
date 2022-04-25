@@ -23,6 +23,9 @@ import "./styles/index.scss";
 
 In `App.js`, remove all the code and create a simple component named `App` that just print "Hello React" on your web browser
 
+*It should look like this:*
+<img src="../.assets/exercises/task1.png">
+
 ## Task 2
 
 **It is from now on that the serious things begin ! Here you are going to create the two pages that your website will contain.**
@@ -34,6 +37,7 @@ In the folder `pages`:
 Add those two components in `App.js`
 
 *It should look like this:*
+<img src="../.assets/exercises/task2.png">
 
 ## Task 3
 
@@ -52,8 +56,10 @@ Use BrowserRouter, Routes and Route components imported previously and create tw
 :bulb: **[Hint](https://reactrouter.com/docs/en/v6/getting-started/installation)**
 
 Now, when you hit `http://localhost:3000/` you should see this:
+<img src="../.assets/exercises/task3.1.png">
 
 And if you hit `http://localhost:3000/about` it should look like this:
+<img src="../.assets/exercises/task3.2.png">
 
 ## Task 4
 
@@ -93,6 +99,7 @@ function Navigation() {
 - Then place your `Navigation` component just created in your `Home` and `About` components
 
 *It should look like this:*
+<img src="../.assets/exercises/task4.1.png">
 
 ## Task 5
 
@@ -121,6 +128,7 @@ function Logo() {
 - Use the HTML image tag to display the `logo192.png` on your web browser
 
 *It should look like this:*
+<img src="../.assets/exercises/task5.png">
 
 ## Task 6
 
@@ -148,8 +156,6 @@ function Countries() {
 
 - Add the `Countries` component in the `Home` component
 
-*It should look like this:*
-
 Now, still in the `Coutries.js` file add this line:
 ```javascript
 import { useEffect } from "react";
@@ -159,7 +165,7 @@ import { useEffect } from "react";
 
 :bulb: **[Hint](https://fr.reactjs.org/docs/hooks-effect.html)**
 
-*It should look like this (screen of the console):*
+*It should look like this (screen of the console):*<img src="../.assets/exercises/task6.png">
 
 **Your now a master of React Hooks!** :laughing:
 
@@ -179,6 +185,7 @@ Using the `useEffect` Hook and `axios`, do a GET request from this API link `htt
 :bulb: **[Hint](https://axios-http.com/docs/intro)**
 
 *It should look like this (screen of the console):*
+<img src="../.assets/exercises/task7.png">
 
 ## Task 8
 
@@ -195,17 +202,21 @@ Again, everytime your refresh your the internet page, the fetched data must be s
 
 :question: *You may ask: How can I modify a const variable? This is where [useState Hook](https://fr.reactjs.org/docs/hooks-state.html) goes into action : )*
 
+*It should look like this (screen of the console):*
+<img src="../.assets/exercises/task8.png">
+
 ## Task 9
 
 **Now you are going to explore a very useful tool: [map functions](https://en.reactjs.org/docs/lists-and-keys.html)**
 
 *Your `data` variable is now containing an array of countries and their information.*
 
-- In the `Countries.js` file, display all the names of the countries by looping on this array using the `map` function
+- In the `Countries.js` file, display all the names of the countries by looping on this array using the `map` function in a HTML unordered list tag
 
 :warning: *Pay attention to your data's architecture in order to access the countries name*
 
 *It should look like this:*
+<img src="../.assets/exercises/task9.png">
 
 ## Task 10
 
@@ -237,6 +248,7 @@ function Card(/*Code*/) {
 ```
 
 *It should look like this:*
+<img src="../.assets/exercises/task10.png">
 
 ## Task 11 (Bonus)
 

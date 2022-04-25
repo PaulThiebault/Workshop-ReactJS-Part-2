@@ -49,6 +49,16 @@ You can now install [Axios](https://www.digitalocean.com/community/tutorials/rea
 npm install axios
 ```
 
+:warning: *If you have a problem with `sass`, please do this command*
+```shell
+npm install node-sass --save
+```
+
+:warning: *If you have a problem with `react-router-dom`, please do this command*
+```shell
+npm install react-router-dom --save
+```
+
 ## Step 3: Create & Launch Your First React Application
 
 Creating a React application is quite simple. We are going to create a react app called workshop-reactjs-app as follows:
